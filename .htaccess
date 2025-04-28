@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /restapi/
+RewriteRule ^tasks$ index.php [L]
+RewriteRule ^tasks/([0-9]+)$ index.php [L]
